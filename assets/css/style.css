@@ -10826,6 +10826,14 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 
+.socials {
+  padding: 10rem 0rem 5rem 2rem;
+  width: auto;
+  height: 50vh !important;
+  background-image: linear-gradient(45deg, #000 0%, #23272A 100%) !important;
+  color: #fff;
+}
+
 .badge-clemson {
   background-color: #F56600 !important;
   color: #fff !important;
@@ -10841,8 +10849,9 @@ textarea.form-control-lg {
 }
 
 .project-images {
-  width: auto;
-  height: 250px;
+  width: 250px !important;
+  height: 250px !important;
+  object-fit: scale-down !important;
 }
 
 /*# sourceMappingURL=style.css.map */
