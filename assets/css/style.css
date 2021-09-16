@@ -10748,6 +10748,7 @@ textarea.form-control-lg {
 }
 .btn-resume {
   position: relative;
+  width: max-content;
   padding: 18px 26px;
   font-weight: 700;
   color: #fff;
