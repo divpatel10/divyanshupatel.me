@@ -10777,6 +10777,23 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.footer {
+  background: #522D80 !important;
+  text-align: center;
+  padding: 20px 0;
+  color: antiquewhite;
+}
+
+.footer__name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__title {
+  margin-top: 0;
+  color: #F56600;
+}
+
 .intro-section {
   padding: 10rem 0rem 5rem 2rem;
   width: auto;
