@@ -1,0 +1,21 @@
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.btn-resume {
+    position: relative;
+    width: max-content;
+    padding: 18px 26px;
+    font-weight: 700;
+    color: $white;
+    margin: 0;
+    background-color: $primary;
+    display:block;
+    transition: 1s;
+
+    &:hover{
+        color: $white;
+    }
+
+}
