@@ -1,8 +1,9 @@
 import './App.css';
-
+import React from "react"
+import Card from "./components/Card"
 function App() {
   return (
-      <h1 className="text-6xl">Hella</h1>
+      <Card/>
   );
 }
 
