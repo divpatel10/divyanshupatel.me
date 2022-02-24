@@ -1,9 +1,19 @@
 import './App.css';
 import React from "react"
-import Card from "./components/Card"
+import Projects from "./components/Projects"
+import Skills from "./components/Skills"
+import AboutMe from "./components/AboutMe"
 function App() {
   return (
-      <Card/>
+    <div>
+
+        <AboutMe/>
+        <div className="flex flex-wrap -mx-10">
+        <Skills/>
+        <Projects/>
+        </div>
+    </div>
+
   );
 }
 
