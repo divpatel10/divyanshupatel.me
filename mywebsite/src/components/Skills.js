@@ -6,10 +6,8 @@ import { FaRegEnvelope } from 'react-icons/fa';
 
 function Skills(){
     return(
-        <div className="w-full md:w-1/2 xl:w-1/2">
-            <div className='flex flex-col justify-center from-gray-600 to-gray-800 bg-gradient-to-bl max-w-2xl mx-auto bg-white shadow-2xl rounded-xl p-10 mt-10'>
+        <div className="flex flex-col from-gray-600 to-gray-800 bg-gradient-to-bl text-white rounded p-4 items-center shadow-lg mb-4 md:mb-auto">
 
-                <div className="text-center mt-5 text-white">
 
                     <p className='text-4xl sm:text-4xl font-semibold '>
                     Skills, Frameworks, and Tools
@@ -23,8 +21,6 @@ function Skills(){
                     <button type="button" class="button" class="text-clemrange hover:text-white border border-yellow-400 hover:bg-clemrange focus:ring-4 focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-yellow-500 dark:text-yellow-500 dark:hover:text-white dark:hover:bg-clemrange dark:focus:ring-yellow-200">
                         MY RESUME
                         </button>
-                    </div>
-        </div>
       </div>
 
         </div>

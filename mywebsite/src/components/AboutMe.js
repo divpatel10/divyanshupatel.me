@@ -6,16 +6,18 @@ import { FaRegEnvelope } from 'react-icons/fa';
 
 function AboutMe(){
     return(
-        <div className=" w-full">
-            <div className='flex flex-col justify-center from-gray-600 to-gray-800 bg-gradient-to-bl max-w-4xl mx-auto bg-white shadow-2xl rounded-xl py-20 mt-20'>
+        <div className="flex flex-col items-center justify-center text-center p-6 from-gray-600 to-gray-800 text-white bg-gradient-to-bl mt-24  shadow-2xl rounded-xl mr-10 -ml-44 mb-8 flex-1 md:mb-0  md:w-1/2 sm:flex-initial">
+            {/* <div className='from-gray-600 to-gray-800 bg-gradient-to-bl max-w-4xl mx-8 bg-white shadow-2xl rounded-xl py-20 mt-10'> */}
 
-                <div className="text-center mt-5 text-white">
+                <div >
+
+                    <div>
 
                     <p className='text-4xl sm:text-4xl font-semibold '>
                     Hi!👋 <br/>I'm Divyanshu
                     </p>
-                    <p className=' text-xl sm:text-2xl pt-2 pb-4 px-5 w-auto inline-block border-b-2'>
-                       I'm currently a Senior Computer Science Student at Clemson University 
+                    <p className=' text-xl sm:text-2xl pt-1 pb-4 px-5 w-auto inline-block border-b-1 text-ellipsis' >
+                       I'm currently a Senior Computer Science Student at Clemson University
                        <span class="cursor"><b> |</b></span>
                     </p>
 
@@ -25,10 +27,11 @@ function AboutMe(){
                         MY RESUME
                         </button>
                     </div>
+                    </div>
         </div>
       </div>
 
-        </div>
+         
     );
 }
 

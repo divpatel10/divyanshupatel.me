@@ -5,12 +5,17 @@ import Skills from "./components/Skills"
 import AboutMe from "./components/AboutMe"
 function App() {
   return (
-    <div>
+      
+      <div className="flex justify-center flex-wrap ">
 
         <AboutMe/>
-        <div className="flex flex-wrap -mx-10">
+
+        <div className="flex flex-col justify-between mx-8 mt-20 md:mx-0 md:w-1/4 ">
+
         <Skills/>
+
         <Projects/>
+
         </div>
     </div>
 
