@@ -6,7 +6,7 @@ import { FaRegEnvelope } from 'react-icons/fa';
 
 function Projects(){
     return(
-        <div className="flex flex-col from-gray-600 to-gray-800 bg-gradient-to-bl text-white rounded p-4 items-center shadow-lg">
+        <div className="flex flex-col from-gray-700 to-gray-900 bg-gradient-to-bl text-white rounded-xl p-10 items-center mt-10 shadow-2xl">
 
 
                     <p className='text-4xl sm:text-4xl font-semibold '>

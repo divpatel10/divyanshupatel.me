@@ -10,7 +10,7 @@ function App() {
 
         <AboutMe/>
 
-        <div className="flex flex-col justify-between mx-8 mt-20 md:mx-0 md:w-1/4 ">
+        <div className="flex flex-col justify-between mx-6 md:mx-0 md:w-1/3 ">
 
         <Skills/>
 
