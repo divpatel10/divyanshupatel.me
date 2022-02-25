@@ -1,29 +1,28 @@
 import React from "react"
+import Tags from "./Tags";
 import { FaGithub } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaRegEnvelope } from 'react-icons/fa';
+import { GrMail } from 'react-icons/gr';
+import { FaLinkedin } from 'react-icons/fa';
+import { MdContactPage } from 'react-icons/md';
 
-function Skills(){
-    return(
-        <div className="flex flex-col from-gray-700 to-gray-900 bg-gradient-to-bl text-white rounded-xl py-14 px-10 items-center mt-24 shadow-2xl">
+function Skills() {
+    return (
+        <div className="flex flex-col from-gray-700 to-gray-900 bg-gradient-to-bl text-white rounded-xl py-14 px-4  mt-24 shadow-2xl">
 
 
-                    <p className='text-4xl sm:text-4xl font-semibold '>
-                    Skills
-                    </p>
-                    <p className=' text-xl sm:text-2xl pt-2 pb-4 px-5 w-auto inline-block border-b-2'>
-                       Python JavaScript C# Java C++ GoLang MERN Stack 
-                    </p>
+            <p className='text-3xl sm:text-4xl font-semibold '>
+                Skills
+            </p>
 
-                    <div className="flex align-center justify-center mt-4">
+            <div className='my-4 flex flex-wrap -m-1 mt-2 p-6 sm:px-10'>
 
-                    <button type="button" class="button" class="text-clemrange hover:text-white border border-yellow-400 hover:bg-clemrange focus:ring-4 focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-yellow-500 dark:text-yellow-500 dark:hover:text-white dark:hover:bg-clemrange dark:focus:ring-yellow-200">
-                        MY RESUME
-                        </button>
-      </div>
+                <Tags title="LinkedIn"  icon={<FaLinkedin className="inline-block text-lg" />} />
+                <Tags title="Email" icon={<GrMail className="inline-block text-lg mr-2" />} />
+                <Tags title="Github" icon={<FaGithub className="inline-block text-lg mr-2" />} />
 
+            </div>
         </div>
+
     );
 }
 
