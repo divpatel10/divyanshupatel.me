@@ -7,7 +7,7 @@ import { MdContactPage } from 'react-icons/md';
 
 function AboutMe() {
     return (
-        <div className="flex flex-col items-center justify-center text-center p-6 from-gray-700 to-gray-900 text-white bg-gradient-to-bl shadow-2xl rounded-xl mx-10  mb-8 mt-24 flex-1 md:mb-0  md:w-[50%] md:-ml-1 sm:flex-initial">
+        <div className="flex flex-col items-center justify-center text-center p-6 from-gray-700 to-gray-900 text-white bg-gradient-to-bl shadow-2xl rounded-xl mx-10  mb-8 mt-12 flex-1 md:mb-0  md:w-[50%] md:-ml-1 sm:flex-initial">
             <div>
 
                 <h1 className='text-4xl sm:text-6xl  leading-relaxed font-semibold mt-6'>

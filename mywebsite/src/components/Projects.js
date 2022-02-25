@@ -1,29 +1,34 @@
 import React from "react"
-import { FaGithub } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaRegEnvelope } from 'react-icons/fa';
-
-function Projects(){
-    return(
-        <div className="flex flex-col from-gray-700 to-gray-900 bg-gradient-to-bl text-white rounded-xl py-14 px-10 items-center mt-10 shadow-2xl">
+import Tags from "./Tags";
+import { SiJavascript, SiPython, SiSharp, SiCplusplus, SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss } from 'react-icons/si';
+import { FaBootstrap, FaJava, FaNodeJs } from 'react-icons/fa';
 
 
-                    <p className='text-4xl sm:text-4xl font-semibold '>
-                    Skills, Frameworks, and Tools
-                    </p>
-                    <p className=' text-xl sm:text-2xl pt-2 pb-4 px-5 w-auto inline-block border-b-2'>
-                       Python JavaScript C# Java C++ GoLang MERN Stack 
-                    </p>
 
-                    <div className="flex align-center justify-center mt-4">
 
-                    <button type="button" class="button" class="text-clemrange hover:text-white border border-yellow-400 hover:bg-clemrange focus:ring-4 focus:ring-yellow-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-yellow-500 dark:text-yellow-500 dark:hover:text-white dark:hover:bg-clemrange dark:focus:ring-yellow-200">
-                        MY RESUME
-                        </button>
-      </div>
+function Projects() {
+    return (
+        <div className="flex flex-col from-gray-700 to-gray-900 bg-gradient-to-bl text-white rounded-xl pt-6 px-4 mt-12 shadow-2xl">
+
+            <div>
+                <p className='text-2xl sm:text-3xl font-semibold ml-10'>
+                    Projects
+                </p>
+
+                <div className='my-4 flex flex-wrap -m-1 mt-2 p-6 sm:px-10'>
+
+                    <Tags title="Project 1" icon={<FaNodeJs className="inline-block text-lg -mt-1" />} />
+                    <Tags title="Project 1" icon={<SiExpress className="inline-block text-lg mr-2 -mt-1" />} />
+                    <Tags title="Project 1" icon={<SiMongodb className="inline-block text-xl" />} />
+                    <Tags title="Project 1" icon={<SiGit className="inline-block text-lg mr-2 -mt-1" />} />
+                    <Tags title="Project 1" icon={<SiAzuredevops className="inline-block text-lg mr-2 -mt-1" />} />
+                    <Tags title="Project 1" icon={<SiTailwindcss className="inline-block text-lg mr-2 -mt-1" />} />
+                    <Tags title="Project 1" icon={<FaBootstrap className="inline-block text-lg mr-2 -mt-1" />} />
+                </div>
+            </div>
 
         </div>
+
     );
 }
 
