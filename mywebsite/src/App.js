@@ -3,22 +3,23 @@ import React from "react"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import AboutMe from "./components/AboutMe"
+import Frameworks from "./components/Frameworks"
 
 function App() {
   return (
-      
+    <div>
+
       <div className="flex justify-center flex-wrap h-full">
 
-        <AboutMe/>
+        <AboutMe />
 
-        <div className="flex flex-col justify-between mx-6 md:mx-0 md:w-[40%]">
-
+          <Projects />
         <Skills/>
+        <Frameworks/>
+          
+      </div>
+      </div>
 
-        <Projects/>
-
-        </div>
-    </div>
 
   );
 }

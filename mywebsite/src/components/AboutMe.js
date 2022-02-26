@@ -7,11 +7,11 @@ import { MdContactPage } from 'react-icons/md';
 
 function AboutMe() {
     return (
-        <div className="flex flex-col items-center justify-center text-center p-6 from-gray-700 to-gray-900 bg-gradient-to-bl text-white shadow-2xl rounded-xl mx-10  mb-8 mt-12 flex-1 md:mb-0  md:w-[50%] md:-ml-1 sm:flex-initial">
+        <div className="flex flex-col items-center justify-center text-center p-6 from-gray-700 to-gray-900 bg-gradient-to-bl text-white shadow-2xl rounded-xl mx-5  mb-8 mt-8 flex-1 md:mb-0  md:w-[45%] md:-ml-1 sm:flex-initial">
                 <h1 className='text-4xl sm:text-6xl  leading-relaxed font-semibold mt-6'>
                     Hi!👋 <br />I'm Divyanshu
                 </h1>
-                <p className=' text-xl sm:text-2xl pt-1 pb-4 px-5 mt-8 w-auto inline-block border-b-1 text-ellipsis' >
+                <p className=' text-xl sm:text-2xl pt-1 pb-4 px-5 mt-4 w-auto inline-block border-b-1 text-ellipsis' >
                     I'm currently a Senior Computer Science Student at Clemson University
                     <span class="cursor"><b> |</b></span>
                 </p>
@@ -22,7 +22,7 @@ function AboutMe() {
                     </span>
                 </button>
 
-                <div className='my-4 flex flex-wrap justify-center -m-1 relative mt-16 p-6 px-6 sm:px-32'>
+                <div className='my-2 flex flex-wrap justify-center -m-1 relative mt-12 p-4 px-6 sm:px-20'>
 
                     <Tags title="LinkedIn" isMain={true} icon={<FaLinkedin className="inline-block text-lg mr-2" />} />
                     <Tags title="Email" isMain={true} icon={<GrMail className="inline-block text-lg mr-2" />} />
