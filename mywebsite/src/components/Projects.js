@@ -1,6 +1,6 @@
 import React from "react"
 import Tags from "./Tags";
-import { SiJavascript, SiPython, SiSharp, SiCplusplus, SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss } from 'react-icons/si';
+import {  SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss } from 'react-icons/si';
 import { FaBootstrap, FaJava, FaNodeJs } from 'react-icons/fa';
 
 
@@ -24,7 +24,7 @@ function Projects() {
                     <Tags title="Project 1" icon={<SiAzuredevops className="inline-block text-lg mr-2 -mt-1" />} />
                     <Tags title="Project 1" icon={<SiTailwindcss className="inline-block text-lg mr-2 -mt-1" />} />
                     <Tags title="Project 1" icon={<FaBootstrap className="inline-block text-lg mr-2 -mt-1" />} />
-                    
+
                 </div>
             </div>
 

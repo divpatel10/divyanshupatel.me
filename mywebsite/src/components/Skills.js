@@ -16,7 +16,6 @@ function Skills() {
                 </p>
 
                 <div className='-mt-2 flex flex-wrap -m-1 p-6 sm:px-10'>
-
                     <Tags title="JavaScript" icon={<SiJavascript className="inline-block text-lg" />} />
                     <Tags title="Python" icon={<SiPython className="inline-block text-lg mr-2" />} />
                     <Tags title="Java" icon={<FaJava className="inline-block text-xl mr-2" />} />
