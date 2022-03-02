@@ -1,6 +1,6 @@
 import React from "react"
 import Tags from "./Tags";
-import { SiJavascript, SiPython, SiSharp, SiCplusplus, SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss, SiAndroidstudio } from 'react-icons/si';
+import { SiJavascript, SiPython, SiSharp, SiCplusplus, SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss, SiAndroidstudio, SiDjango } from 'react-icons/si';
 import { FaBootstrap, FaJava, FaNodeJs } from 'react-icons/fa';
 
 
@@ -21,6 +21,7 @@ function Frameworks() {
                     <Tags title="MongoDB" icon={<SiMongodb className="inline-block text-xl" />} />
                     <Tags title="Azure DevOps" icon={<SiAzuredevops className="inline-block text-lg mr-2 -mt-1" />} />
                     <Tags title="Git" icon={<SiGit className="inline-block text-lg mr-2 -mt-1" />} />
+                    <Tags title="Django" icon={<SiDjango className="inline-block text-lg mr-2 -mt-1" />} />
                     <Tags title="Android Studio" icon={<SiAndroidstudio className="inline-block text-lg mr-2 -mt-1" />} />
                     <Tags title="Tailwind CSS" icon={<SiTailwindcss className="inline-block text-lg mr-2 -mt-1" />} />
                     <Tags title="Bootstrap" icon={<FaBootstrap className="inline-block text-lg mr-2 -mt-1" />} />

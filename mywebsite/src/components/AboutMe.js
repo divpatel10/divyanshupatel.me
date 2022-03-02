@@ -11,7 +11,7 @@ function AboutMe() {
                 <h1 className='text-4xl sm:text-6xl  leading-relaxed font-semibold mt-6'>
                     Hi!👋 <br />I'm Divyanshu
                 </h1>
-                <p className=' text-xl sm:text-2xl pt-1 pb-4 px-5 mt-4 w-auto inline-block border-b-1 text-ellipsis' >
+                <p className=' text-xl sm:text-3xl pt-1 pb-4 px-5 mt-4 w-auto inline-block border-b-1 text-ellipsis' >
                     I'm currently a Senior Computer Science Student at Clemson University
                     <span class="cursor"><b> |</b></span>
                 </p>
@@ -22,11 +22,11 @@ function AboutMe() {
                     </span>
                 </button>
 
-                <div className='my-2 flex flex-wrap justify-center -m-1 relative mt-12 p-4 px-6 sm:px-20'>
+                <div className='my-2 flex flex-wrap justify-around -m-1 relative mt-12 p-4 px-6 sm:px-20'>
 
-                    <Tags title="LinkedIn" isMain={true} icon={<FaLinkedin className="inline-block text-lg mr-2" />} />
-                    <Tags title="Email" isMain={true} icon={<GrMail className="inline-block text-lg mr-2" />} />
-                    <Tags title="Github" isMain={true} icon={<FaGithub className="inline-block text-lg mr-2" />} />
+                    <Tags title="LinkedIn" isMain={true} icon={<FaLinkedin className="inline-block text-lg mx-2" />} />
+                    <Tags title="Email" isMain={true} icon={<GrMail className="inline-block text-lg mx-2" />} />
+                    <Tags title="Github" isMain={true} icon={<FaGithub className="inline-block text-lg mx-2" />} />
 
                 </div>
             </div>

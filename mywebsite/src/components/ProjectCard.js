@@ -6,7 +6,7 @@ import { FaBootstrap, FaJava, FaNodeJs } from 'react-icons/fa';
 
 
 
-function ProjectCard({img, title,  description}) {
+function ProjectCard({img, title,  link}) {
     return (
         <div class="flex-wrap inline-flex items-center justify-center mr-5 p-0.5 mb-2 overflow-hidden text-md mt-5 font-medium text-violet-900 rounded-lg group bg-gradient-to-br from-violet-400 to-violet-800  md:w-[28%] dark:text-white">
         <a href="#">
@@ -16,7 +16,6 @@ function ProjectCard({img, title,  description}) {
             <a href="#">
                 <h5 class="text-gray-900 font-bold text-md tracking-tight mb-2 dark:text-white">{title}</h5>
             </a>
-        <p className="text-sm">{description}</p>
         </div>
     </div>
     );

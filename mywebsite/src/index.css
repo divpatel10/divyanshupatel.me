@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .cursor{
-  color: yellow;
+  color: red;
   font-size: 36px;
   animation: blink-animation 1s steps(4,start) infinite;
   -webkit-animation: blink-animation 1.2s steps(4, start) infinite;

@@ -12,8 +12,7 @@ function App() {
       <div className="flex justify-center flex-wrap h-full">
 
         <AboutMe />
-
-          <Projects />
+        <Projects />
         <Skills/>
         <Frameworks/>
           
