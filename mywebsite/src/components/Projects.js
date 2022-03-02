@@ -3,7 +3,9 @@ import Tags from "./Tags";
 import { SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss } from 'react-icons/si';
 import { FaBootstrap, FaJava, FaNodeJs } from 'react-icons/fa';
 import ProjectCard from "./ProjectCard";
-
+import uip from '../images/universeinpixels.png'
+import secfrontier from '../images/secondary-frontier.png'
+import gauntlet from '../images/gauntlet.png'
 
 function Projects() {
     return (
@@ -14,9 +16,9 @@ function Projects() {
                     Projects
                 </p>
 
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
+                <ProjectCard img={uip} title="Universe in Pixels"  />
+                <ProjectCard img={secfrontier} title="The Secondary Frontier"  />
+                <ProjectCard img={gauntlet} title="Gauntlet" />
 
 
 
