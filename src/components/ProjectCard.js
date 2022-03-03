@@ -1,10 +1,4 @@
 import React from "react"
-import Tags from "./Tags";
-import { SiJavascript, SiPython, SiSharp, SiCplusplus, SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss, SiAndroidstudio } from 'react-icons/si';
-import { FaBootstrap, FaJava, FaNodeJs } from 'react-icons/fa';
-
-
-
 
 function ProjectCard({img, title,  link}) {
     return (
