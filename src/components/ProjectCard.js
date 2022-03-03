@@ -8,7 +8,15 @@ import { FaBootstrap, FaJava, FaNodeJs } from 'react-icons/fa';
 
 function ProjectCard({img, title,  link}) {
     return (
-        <div class="flex-wrap inline-flex items-center justify-center mr-5 p-0.5 mb-2 overflow-hidden text-md mt-5 font-medium text-violet-900 rounded-lg group bg-gradient-to-br from-violet-400 to-violet-800  md:w-[28%] dark:text-white">
+        <div 
+            class="flex-wrap inline-flex items-center
+                 justify-center mr-5 p-0.5 mb-2 overflow-hidden 
+                 text-md mt-5 font-medium text-violet-900
+                  rounded-lg group bg-gradient-to-br 
+                  from-violet-400 to-violet-800 
+                   md:w-[28%] dark:text-white"
+                   
+                   >
         <a href="#">
             <img class="rounded-t-md object-fill h-28 w-48 border-4 border-black m-0 p-0" src={img} alt="" />
         </a>
