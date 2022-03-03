@@ -5,7 +5,12 @@ import { GrMail } from 'react-icons/gr';
 import { FaLinkedin } from 'react-icons/fa';
 import { MdContactPage } from 'react-icons/md';
 
+const LINKED_URL = "https://www.linkedin.com/in/divvpatel/"
+const GITHUB_URL = "https://github.com/divpatel10"
+const EMAIL_ID = "div@duck.com"
+
 function AboutMe() {
+
     return (
         <div className="flex flex-col items-center justify-center text-center p-6 from-gray-700 to-gray-900 bg-gradient-to-bl text-white shadow-2xl rounded-xl mx-5  mb-8 mt-8 flex-1 md:mb-0  md:w-[45%] md:-ml-1 sm:flex-initial">
                 <h1 className='text-4xl sm:text-6xl  leading-relaxed font-semibold mt-6'>
@@ -24,7 +29,7 @@ function AboutMe() {
 
                 <div className='my-2 flex flex-wrap justify-around -m-1 relative mt-12 p-4 px-6 sm:px-20'>
 
-                    <Tags title="LinkedIn" isMain={true} icon={<FaLinkedin className="inline-block text-lg mx-2" />} />
+                    <Tags title="LinkedIn" onclick={LINKED_URL} isMain={true} icon={<FaLinkedin className="inline-block text-lg mx-2" />} />
                     <Tags title="Email" isMain={true} icon={<GrMail className="inline-block text-lg mx-2" />} />
                     <Tags title="Github" isMain={true} icon={<FaGithub className="inline-block text-lg mx-2" />} />
 
