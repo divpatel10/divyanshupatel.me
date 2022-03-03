@@ -7,7 +7,7 @@ import { MdContactPage } from 'react-icons/md';
 
 const LINKED_URL = "https://www.linkedin.com/in/divvpatel/"
 const GITHUB_URL = "https://github.com/divpatel10"
-const EMAIL_ID = "div@duck.com"
+const EMAIL_ID = "mailto:div@duck.com"
 
 function AboutMe() {
 
@@ -30,8 +30,8 @@ function AboutMe() {
                 <div className='my-2 flex flex-wrap justify-around -m-1 relative mt-12 p-4 px-6 sm:px-20'>
 
                     <Tags title="LinkedIn" onclick={LINKED_URL} isMain={true} icon={<FaLinkedin className="inline-block text-lg mx-2" />} />
-                    <Tags title="Email" isMain={true} icon={<GrMail className="inline-block text-lg mx-2" />} />
-                    <Tags title="Github" isMain={true} icon={<FaGithub className="inline-block text-lg mx-2" />} />
+                    <Tags title="Email" onclick={EMAIL_ID} isMain={true} icon={<GrMail className="inline-block text-lg mx-2" />} />
+                    <Tags title="Github" onclick={GITHUB_URL} isMain={true} icon={<FaGithub className="inline-block text-lg mx-2" />} />
 
                 </div>
             </div>
