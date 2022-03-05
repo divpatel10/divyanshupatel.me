@@ -2,11 +2,14 @@ import React from "react";
 
 function openWindow(url){
     const link = document.createElement('a');
+        if(url != ""){
 			link.href = url;
+
 			link.target = '_blank';
 			document.body.appendChild(link);
 			link.click();
 			link.remove();
+        }
 }
 
 const Tags = ({icon, title, onclick="" ,isMain=false}) => {
