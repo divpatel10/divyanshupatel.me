@@ -8,7 +8,9 @@ import secfrontier from '../images/secondary-frontier.png'
 import gauntlet from '../images/gauntlet.png'
 
 function Projects() {
+    const PROJECT_TIMESTAMP = "https://div-timestamp-microservice.herokuapp.com/"
     return (
+
         <div className="flex flex-col items-center justify-between text-center p-6 from-gray-700 to-gray-900 bg-gradient-to-bl text-white shadow-2xl rounded-xl mb-8 mt-8 flex-1 md:mb-0 md:w-[45%] md:-ml-1 sm:flex-initial">
 
             <div>
@@ -26,7 +28,7 @@ function Projects() {
 
 
 
-                    <Tags title="Time Stamp Microservice" icon={<FaNodeJs className="inline-block text-lg -mt-1" />} />
+                    <Tags title="Time Stamp Microservice" onclick={PROJECT_TIMESTAMP} icon={<FaNodeJs className="inline-block text-lg -mt-1" />} />
                     <Tags title="Barcode Reader" icon={<SiMongodb className="inline-block text-xl" />} />
                     <Tags title="Caesars Cipher" icon={<SiMongodb className="inline-block text-xl" />} />
                     <Tags title="File Meta Data Microservice" icon={<SiExpress className="inline-block text-lg mr-2 -mt-1" />} />
