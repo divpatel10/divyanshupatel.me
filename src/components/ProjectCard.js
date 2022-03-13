@@ -1,5 +1,17 @@
 import React from "react"
 
+function openWindow(url){
+    const link = document.createElement('a');
+        if(url != ""){
+			link.href = url;
+
+			link.target = '_blank';
+			document.body.appendChild(link);
+			link.click();
+			link.remove();
+        }
+}
+
 function ProjectCard({img, title,  link}) {
     return (
         <div 
@@ -10,6 +22,12 @@ function ProjectCard({img, title,  link}) {
                   from-violet-400 to-violet-800 
                    md:w-[28%] dark:text-white"
                    
+                   onClick={ e => {
+                    e.preventDefault();
+                    openWindow(link);
+                }
+                }
+
                    >
         <a href="#">
             <img class="rounded-t-md object-fill h-28 w-48 border-4 border-black m-0 p-0" src={img} alt="" />
