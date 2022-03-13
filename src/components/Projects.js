@@ -12,7 +12,8 @@ function Projects() {
     const PROJECT_FILE_METADATA = "https://file-mta-dta.herokuapp.com"
     const PROJECT_URL_SHORTENER = "https://u-r-lshrtner.herokuapp.com"
     const PROJECT_GAUNTLET = "https://github.com/divpatel10/gauntlet"
-    const PROJECT_SF = "https://github.com/divpatel10/The-Secondary-Frontier"
+    const PROJECT_SF = "https://divpatel10.github.io/The-Secondary-Frontier/"
+    const PROJECT_UIP = "https://github.com/divpatel10/SpaceApp"
     return (
 
         <div className="flex flex-col items-center justify-between text-center p-6 from-gray-700 to-gray-900 bg-gradient-to-bl text-white shadow-2xl rounded-xl mb-8 mt-8 flex-1 md:mb-0 md:w-[45%] md:-ml-1 sm:flex-initial">
@@ -22,7 +23,7 @@ function Projects() {
                     Projects
                 </p>
 
-                <ProjectCard img={uip} title="Universe in Pixels" link="" />
+                <ProjectCard img={uip} title="Universe in Pixels" link={PROJECT_UIP} />
                 <ProjectCard img={secfrontier} title="The Secondary Frontier" link={PROJECT_SF}  />
                 <ProjectCard img={gauntlet} title="Gauntlet" link={PROJECT_GAUNTLET} />
 
