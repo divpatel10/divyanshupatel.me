@@ -8,10 +8,10 @@ function Frameworks() {
     return (
 
         <div 
-            className="flex flex-col items-center justify-between text-center 
+            className="flex flex-col md:flex-initial  items-center justify-center text-center 
                 p-6 from-gray-700 to-gray-900 bg-gradient-to-bl text-white 
                 shadow-2xl rounded-xl mb-8 mt-5 flex-1 md:mb-8  md:w-[45%] 
-                md:-ml-1 sm:flex-initial" 
+                md:-ml-1 " 
                 >
         
         <h2 className='text-2xl sm:text-3xl font-semibold ml-10'>Frameworks/Tools</h2>

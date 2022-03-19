@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
 
-      <div className="flex justify-center flex-wrap h-full">
+      <div className="flex justify-center justify-items-center flex-wrap h-screen">
 
         <AboutMe />
         <Projects />
