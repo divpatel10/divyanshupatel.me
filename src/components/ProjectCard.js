@@ -14,7 +14,14 @@ function openWindow(url){
 
 function ProjectCard({img, title,  link}) {
     return (
-  <div class="inline-block items-center justify-center min-w-[28%] px-4 py-2 ">
+  <div class="inline-block items-center justify-center min-w-[28%] px-4 py-2"
+  onClick={ e => {
+                     e.preventDefault();
+                     openWindow(link);
+                 }
+                 }
+
+  >
     <div class="rounded-md overflow-hidden shadow-lg hover:scale-105 transition duration-500 cursor-pointer">
       <div>
         <img class="object-fill h-28 w-48 border-blue-500 border-2" src={img} alt="" />
