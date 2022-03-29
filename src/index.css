@@ -23,7 +23,7 @@
 
 
 .anim-slide-up {
-  -webkit-animation: slideUp 700ms both;
+  -webkit-animation: slideUp 650ms both;
 	animation: slideUp 700ms both;
 
 }
@@ -42,8 +42,8 @@
 @-webkit-keyframes slideUp {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateY(20px);
-		transform: translateY(20px)
+		-webkit-transform: translateY(50px);
+		transform: translateY(50px)
 	}
 	100% {
 		opacity: 1;
