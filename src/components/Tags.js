@@ -15,7 +15,7 @@ function openWindow(url){
 const Tags = ({icon, title, onclick="" ,isMain=false}) => {
    if(isMain) return (
         <a 
-            class="relative inline-flex items-center justify-center p-0.5
+            class="anim-slide-up relative inline-flex items-center justify-center p-0.5
              mb-2 overflow-hidden text-xl mr-6 font-medium text-gray-900
               rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500
                group-hover:from-cyan-500 group-hover:to-blue-600 
@@ -30,7 +30,7 @@ const Tags = ({icon, title, onclick="" ,isMain=false}) => {
                 }
 
                 >
-        <span class="relative inline-block px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+        <span class="anim-slide-down relative inline-block px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
            {icon} {title}
         </span>
     </a>
@@ -39,7 +39,7 @@ const Tags = ({icon, title, onclick="" ,isMain=false}) => {
     else{
         return (
             <a 
-            className="relative inline-flex items-center
+            className="anim-side-up relative inline-flex items-center
                          justify-center p-0.5 mb-2 overflow-hidden 
                          text-md mr-3 font-medium text-violet-900 
                          rounded-lg group bg-gradient-to-br from-cyan-500
@@ -55,7 +55,7 @@ const Tags = ({icon, title, onclick="" ,isMain=false}) => {
             }
                              >
                                 
-            <span className="relative inline-block px-2.5 py-2 transition-all ease-in duration-75 bg-black dark:bg-black rounded-md group-hover:bg-opacity-0">
+            <span className="anim-slide-down relative inline-block px-2.5 py-2 transition-all ease-in duration-75 bg-black dark:bg-black rounded-md group-hover:bg-opacity-0">
                {icon} {title}
             </span>
         </a>
