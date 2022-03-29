@@ -24,7 +24,7 @@ function ProjectCard({img, title,  link}) {
   >
     <div class="rounded-md overflow-hidden shadow-lg hover:scale-105 transition duration-500 cursor-pointer">
       <div>
-        <img class="object-fill h-28 w-48 border-blue-500 border-2" src={img} alt="" />
+        <img class="rounded-md object-fill h-28 w-48 border-blue-500 border-2" src={img} alt="" />
       </div>
       <div class="py-2 px-2 bg-gradient-to-br from-blue-400 to-blue-600 w-48">
         <h3 class="text-sm mb-2 font-semibold w-auto text-white">{title}</h3>

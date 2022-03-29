@@ -16,7 +16,12 @@ function Projects() {
     const PROJECT_UIP = "https://github.com/divpatel10/SpaceApp"
     return (
 
-        <div className="anim-slide-up flex flex-col md:flex-initial items-center justify-center text-center p-6 from-gray-700 to-gray-900 bg-gradient-to-bl text-white shadow-2xl rounded-xl mb-8 mt-8 flex-1 md:mb-0 md:w-[45%] md:-ml-1 ">
+        <div className="
+        
+                anim-slide-up flex flex-col md:flex-initial items-center
+                 justify-center text-center p-6 from-gray-700 to-gray-900 
+                 bg-gradient-to-bl text-white shadow-2xl rounded-xl mb-8 mt-8 mx-5
+                 flex-1 md:mb-0 md:w-[45%] md:-ml-1 ">
 
             <div>
                 <p className='anim-slide-down text-2xl sm:text-3xl font-semibold ml-10 mb-10 '>

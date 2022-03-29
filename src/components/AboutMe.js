@@ -14,7 +14,7 @@ function AboutMe() {
                     
             class="anim-slide-up flex flex-col items-center justify-center text-center 
             p-6 from-gray-700 to-gray-900 bg-gradient-to-bl 
-            text-white shadow-2xl rounded-xl mx-5  mb-8 mt-8 
+            text-white shadow-2xl rounded-xl mx-5 mb-8 mt-8 
             flex-1 md:mb-0  md:w-[45%] md:-ml-1 sm:flex-initial"
         
                         
