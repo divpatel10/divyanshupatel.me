@@ -20,7 +20,7 @@ const Tags = ({icon, title, onclick="" ,isMain=false}) => {
               rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500
                group-hover:from-cyan-500 group-hover:to-blue-600 
                hover:text-white dark:text-white focus:ring-4
-                focus:ring-cyan-200 dark:focus:ring-cyan-800"
+                focus:ring-cyan-200 dark:focus:ring-cyan-800 cursor-pointer"
                 
                 onClick={ e => {
                     e.preventDefault();
@@ -46,14 +46,14 @@ const Tags = ({icon, title, onclick="" ,isMain=false}) => {
                           to-blue-500 group-hover:from-cyan-500
                            group-hover:to-blue-600 hover:text-white
                             dark:text-white focus:ring-4 focus:ring-cyan-200
-                             dark:focus:ring-cyan-800"
+                             dark:focus:ring-cyan-800 cursor-pointer"
             onClick={ e => {
                 e.preventDefault();
                 openWindow(onclick);
             }
 
             }
-                             >
+             >
                                 
             <span className="anim-slide-down relative inline-block px-2.5 py-2 transition-all ease-in duration-75 bg-black dark:bg-black rounded-md group-hover:bg-opacity-0">
                {icon} {title}

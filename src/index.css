@@ -23,19 +23,19 @@
 
 
 .anim-slide-up {
-  -webkit-animation: slideUp 650ms both;
-	animation: slideUp 700ms both;
+  -webkit-animation: slideUp 1150ms both;
+	animation: slideUp 1150ms both;
 
 }
 
 .anim-slide-down{
-  -webkit-animation: slideDown 750ms both;
-	animation: slideDown 750ms both;
+  -webkit-animation: slideDown 1150ms both;
+	animation: slideDown 1150ms both;
 }
 
 .anim-fade-in{
-  -webkit-animation: fadeIn 950ms both;
-	animation: fadeIn 950ms both;
+  -webkit-animation: fadeIn 1150ms both;
+	animation: fadeIn 1150ms both;
 }
 
 

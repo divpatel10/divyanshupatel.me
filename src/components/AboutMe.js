@@ -6,7 +6,6 @@ import { FaLinkedin } from 'react-icons/fa';
 const LINKED_URL = "https://www.linkedin.com/in/divvpatel/"
 const GITHUB_URL = "https://github.com/divpatel10"
 const EMAIL_ID = "mailto:div@duck.com"
-const RESUME_PDF = "./files/resume.pdf"
 function AboutMe() {
 
     return (
@@ -28,10 +27,10 @@ function AboutMe() {
                 </p>
 
                 <div class='anim-fade-in my-2 flex flex-wrap justify-center -m-1 relative mt-12 p-4 sm:px-10'>
-                    <Tags title="Resume" onclick={require("../files/resume.pdf")} isMain={true} icon={<FaBook class="inline-block text-md" />} />
-                    <Tags title="LinkedIn" onclick={LINKED_URL} isMain={true} icon={<FaLinkedin class=" inline-block text-md" />} />
-                    <Tags title="Email" onclick={EMAIL_ID} isMain={true} icon={<GrMail class=" inline-block text-md" />} />
-                    <Tags title="Github" onclick={GITHUB_URL} isMain={true} icon={<FaGithub class=" inline-block text-md" />} />
+                    <Tags title="Resume" onclick={require("../files/resume.pdf")} isMain={true} icon={<FaBook class="inline-block text-md -mt-1" />} />
+                    <Tags title="LinkedIn" onclick={LINKED_URL} isMain={true} icon={<FaLinkedin class=" inline-block text-md -mt-1" />} />
+                    <Tags title="Email" onclick={EMAIL_ID} isMain={true} icon={<GrMail class=" inline-block text-md -mt-1" />} />
+                    <Tags title="Github" onclick={GITHUB_URL} isMain={true} icon={<FaGithub class=" inline-block text-md -mt-1" />} />
 
                 </div>
             </div>
