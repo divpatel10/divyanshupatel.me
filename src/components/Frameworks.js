@@ -1,5 +1,5 @@
 import React from "react"
-import Tags from "./Tags";
+import SkillTag from "./SkillTag";
 import {  SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss, SiAndroidstudio, SiDjango } from 'react-icons/si';
 import { FaBootstrap, FaNodeJs } from 'react-icons/fa';
 
@@ -18,15 +18,15 @@ function Frameworks() {
 
         <div class='anim-fade-in -mt-2 flex flex-wrap -m-1 p-6 sm:px-10'>
 
-        <Tags title="NodeJs" icon={<FaNodeJs class="inline-block text-lg -mt-1" />} />
-        <Tags title="Express" icon={<SiExpress class="inline-block text-lg mr-2 -mt-1" />} />
-        <Tags title="MongoDB" icon={<SiMongodb class="inline-block text-xl" />} />
-        <Tags title="Azure DevOps" icon={<SiAzuredevops class="inline-block text-lg mr-2 -mt-1" />} />
-        <Tags title="Git" icon={<SiGit class="inline-block text-lg mr-2 -mt-1" />} />
-        <Tags title="Django" icon={<SiDjango class="inline-block text-lg mr-2 -mt-1" />} />
-        <Tags title="Android Studio" icon={<SiAndroidstudio class="inline-block text-lg mr-2 -mt-1" />} />
-        <Tags title="Tailwind CSS" icon={<SiTailwindcss class="inline-block text-lg mr-2 -mt-1" />} />
-        <Tags title="Bootstrap" icon={<FaBootstrap class="inline-block text-lg mr-2 -mt-1" />} />            
+        <SkillTag title="NodeJs" icon={<FaNodeJs class="inline-block text-lg -mt-1" />} />
+        <SkillTag title="Express" icon={<SiExpress class="inline-block text-lg mr-2 -mt-1" />} />
+        <SkillTag title="MongoDB" icon={<SiMongodb class="inline-block text-xl" />} />
+        <SkillTag title="Azure DevOps" icon={<SiAzuredevops class="inline-block text-lg mr-2 -mt-1" />} />
+        <SkillTag title="Git" icon={<SiGit class="inline-block text-lg mr-2 -mt-1" />} />
+        <SkillTag title="Django" icon={<SiDjango class="inline-block text-lg mr-2 -mt-1" />} />
+        <SkillTag title="Android Studio" icon={<SiAndroidstudio class="inline-block text-lg mr-2 -mt-1" />} />
+        <SkillTag title="Tailwind CSS" icon={<SiTailwindcss class="inline-block text-lg mr-2 -mt-1" />} />
+        <SkillTag title="Bootstrap" icon={<FaBootstrap class="inline-block text-lg mr-2 -mt-1" />} />            
         </div>
 
         </div>

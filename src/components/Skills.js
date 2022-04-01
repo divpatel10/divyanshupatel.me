@@ -1,5 +1,5 @@
 import React from "react"
-import Tags from "./Tags";
+import SkillTag from "./SkillTag";
 import { SiJavascript, SiPython, SiSharp, SiCplusplus, SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss, SiAndroidstudio } from 'react-icons/si';
 import { FaBootstrap, FaJava, FaNodeJs } from 'react-icons/fa';
 
@@ -14,11 +14,11 @@ function Skills() {
 
 
                 <div class='anim-fade-in -mt-2 flex flex-wrap -m-1 p-6 sm:px-10'>
-                    <Tags title="JavaScript" icon={<SiJavascript class="inline-block text-lg" />} />
-                    <Tags title="Python" icon={<SiPython class="inline-block text-lg mr-2" />} />
-                    <Tags title="Java" icon={<FaJava class="inline-block text-xl mr-2" />} />
-                    <Tags title="C#" icon={<SiSharp class="inline-block text-lg mr-2" />} />
-                    <Tags title="C++" icon={<SiCplusplus class="inline-block text-lg mr-2" />} />
+                    <SkillTag title="JavaScript" icon={<SiJavascript class="inline-block text-lg" />} />
+                    <SkillTag title="Python" icon={<SiPython class="inline-block text-lg mr-2" />} />
+                    <SkillTag title="Java" icon={<FaJava class="inline-block text-xl mr-2" />} />
+                    <SkillTag title="C#" icon={<SiSharp class="inline-block text-lg mr-2" />} />
+                    <SkillTag title="C++" icon={<SiCplusplus class="inline-block text-lg mr-2" />} />
                 </div>
             </div>
 
