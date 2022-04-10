@@ -1,6 +1,6 @@
 import React from "react"
 import Tags from "./Tags";
-import { SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss, SiJavascript, SiCplusplus, SiReact } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiPython, SiCplusplus, SiReact } from 'react-icons/si';
 import { FaBootstrap, FaJava, FaNodeJs, FaPlusCircle } from 'react-icons/fa';
 import ProjectCard from "./ProjectCard";
 import uip from '../images/universeinpixels.png'
@@ -14,6 +14,7 @@ function Projects() {
     const PROJECT_GAUNTLET = "https://github.com/divpatel10/gauntlet"
     const PROJECT_SF = "https://divpatel10.github.io/The-Secondary-Frontier/"
     const PROJECT_UIP = "https://github.com/divpatel10/SpaceApp"
+    const PROJECT_NPFS = "https://github.com/divpatel10/NASA-Planetary-Factsheet"
     return (
 
         <div className="
@@ -34,7 +35,7 @@ function Projects() {
 
                 <div className='anim-fade-in my-4 flex flex-wrap -m-1 mt-4 p-6 sm:px-10'>
                     <Tags title="Time Stamp Microservice" onclick={PROJECT_TIMESTAMP} icon={<SiExpress className="inline-block text-lg -mt-1" />} />
-                    <Tags title="Green Screen Composition" icon={<SiCplusplus className="inline-block text-xl" />} />
+                    <Tags title="NASA Planetary Factsheet API" onclick={PROJECT_NPFS} icon={<SiPython className="inline-block text-xl" />} />
                     <Tags title="This Webpage" icon={<SiReact className="inline-block text-xl" />} />
                     <Tags title="URL Shortener" onclick={PROJECT_URL_SHORTENER} icon={<SiMongodb className="inline-block text-xl" />} />
                     <Tags title="Barcode Reader" icon={<SiCplusplus className="inline-block text-xl" />} />
