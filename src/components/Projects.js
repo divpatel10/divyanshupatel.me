@@ -1,7 +1,6 @@
 import React from "react"
 import Tags from "./Tags";
 import { SiExpress, SiMongodb, SiPython, SiCplusplus, SiReact } from 'react-icons/si';
-import { FaBootstrap, FaJava, FaNodeJs, FaPlusCircle } from 'react-icons/fa';
 import ProjectCard from "./ProjectCard";
 import uip from '../images/universeinpixels.png'
 import secfrontier from '../images/secondary-frontier.png'
@@ -30,7 +29,7 @@ function Projects() {
                 </p>
 
                 <ProjectCard img={uip} title="Universe in Pixels" link={PROJECT_UIP} />
-                <ProjectCard img={secfrontier} title="The Secondary Frontier" link={PROJECT_SF}  />
+                <ProjectCard img={secfrontier} title="The Secondary Frontier" link={PROJECT_SF} />
                 <ProjectCard img={gauntlet} title="Gauntlet" link={PROJECT_GAUNTLET} />
 
                 <div className='anim-fade-in my-4 flex flex-wrap -m-1 mt-4 p-6 sm:px-10'>
