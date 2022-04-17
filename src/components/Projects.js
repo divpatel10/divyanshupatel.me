@@ -29,9 +29,9 @@ function Projects() {
                     My Projects
                 </p>
 
-                <ProjectCard img={cosmoscapsule} title="Cosmos Capsule API" link={PROJECT_COSMOS} />
-                <ProjectCard img={secfrontier} title="The Secondary Frontier" link={PROJECT_SF} />
-                <ProjectCard img={lightcrawl} title="LightCrawl" link={PROJECT_LIGHTCRAWL} />
+                <ProjectCard img={cosmoscapsule} title="Cosmos Capsule API" description="An API for NASA Mission and Planet data" link={PROJECT_COSMOS} />
+                <ProjectCard img={secfrontier} title="The Secondary Frontier" description="A Web Page to visualize NASA Mission Spending" link={PROJECT_SF} />
+                <ProjectCard img={lightcrawl} title="LightCrawl" description="A Lightweight and fast Web Crawler" link={PROJECT_LIGHTCRAWL} />
 
                 <div className='anim-fade-in my-4 flex flex-wrap -m-1 mt-4 p-6 sm:px-10'>
                     <Tags title="Time Stamp Microservice" onclick={PROJECT_TIMESTAMP} icon={<SiExpress className="inline-block text-lg -mt-1" />} />
