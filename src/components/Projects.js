@@ -1,10 +1,10 @@
 import React from "react"
 import Tags from "./Tags";
-import { SiExpress, SiMongodb, SiPython, SiCplusplus, SiReact } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiJava, SiCplusplus, SiReact, SiAndroid } from 'react-icons/si';
 import ProjectCard from "./ProjectCard";
-import uip from '../images/universeinpixels.png'
+import cosmoscapsule from '../images/cosmos-capsule.png'
 import secfrontier from '../images/secondary-frontier.png'
-import gauntlet from '../images/gauntlet.png'
+import lightcrawl from '../images/lightcrawl.png'
 
 function Projects() {
     const PROJECT_TIMESTAMP = "https://div-timestamp-microservice.herokuapp.com/"
@@ -13,7 +13,8 @@ function Projects() {
     const PROJECT_GAUNTLET = "https://github.com/divpatel10/gauntlet"
     const PROJECT_SF = "https://divpatel10.github.io/The-Secondary-Frontier/"
     const PROJECT_UIP = "https://github.com/divpatel10/SpaceApp"
-    const PROJECT_NPFS = "https://github.com/divpatel10/NASA-Planetary-Factsheet"
+    const PROJECT_COSMOS = "https://github.com/divpatel10/NASA-Planetary-Factsheet"
+    const PROJECT_LIGHTCRAWL = "https://github.com/divpatel10/lightcrawl"
     return (
 
         <div className="
@@ -28,18 +29,17 @@ function Projects() {
                     My Projects
                 </p>
 
-                <ProjectCard img={uip} title="Universe in Pixels" link={PROJECT_UIP} />
+                <ProjectCard img={cosmoscapsule} title="Cosmos Capsule API" link={PROJECT_COSMOS} />
                 <ProjectCard img={secfrontier} title="The Secondary Frontier" link={PROJECT_SF} />
-                <ProjectCard img={gauntlet} title="Gauntlet" link={PROJECT_GAUNTLET} />
+                <ProjectCard img={lightcrawl} title="LightCrawl" link={PROJECT_LIGHTCRAWL} />
 
                 <div className='anim-fade-in my-4 flex flex-wrap -m-1 mt-4 p-6 sm:px-10'>
                     <Tags title="Time Stamp Microservice" onclick={PROJECT_TIMESTAMP} icon={<SiExpress className="inline-block text-lg -mt-1" />} />
-                    <Tags title="NASA Planetary Factsheet API" onclick={PROJECT_NPFS} icon={<SiPython className="inline-block text-xl" />} />
+                    <Tags title="Universe in Pixels" onclick={PROJECT_UIP} icon={<SiAndroid className="inline-block text-xl" />} />
                     <Tags title="This Webpage" icon={<SiReact className="inline-block text-xl" />} />
                     <Tags title="URL Shortener" onclick={PROJECT_URL_SHORTENER} icon={<SiMongodb className="inline-block text-xl" />} />
-                    <Tags title="Barcode Reader" icon={<SiCplusplus className="inline-block text-xl" />} />
                     <Tags title="File Meta Data Microservice" onclick={PROJECT_FILE_METADATA} icon={<SiExpress className="inline-block text-lg mr-2 -mt-1" />} />
-                    {/* <Tags title="More Projects..." icon={<FaPlusCircle className="inline-block text-xl" />} /> */}
+                    <Tags title="Gauntlet" onclick={PROJECT_GAUNTLET} icon={<SiJava className="inline-block text-lg mr-2 -mt-1" />} />
 
                 </div>
             </div>
