@@ -15,12 +15,12 @@ function Frameworks() {
 
             <div class='anim-fade-in -mt-2 flex flex-wrap -m-1 p-6 sm:px-10'>
 
+                <SkillTag title="Django" icon={<SiDjango class="inline-block text-lg mr-2 -mt-1" />} />
                 <SkillTag title="NodeJs" icon={<FaNodeJs class="inline-block text-lg -mt-1" />} />
                 <SkillTag title="Express" icon={<SiExpress class="inline-block text-lg mr-2 -mt-1" />} />
                 <SkillTag title="MongoDB" icon={<SiMongodb class="inline-block text-xl" />} />
                 <SkillTag title="Azure DevOps" icon={<SiAzuredevops class="inline-block text-lg mr-2 -mt-1" />} />
                 <SkillTag title="Git" icon={<SiGit class="inline-block text-lg mr-2 -mt-1" />} />
-                <SkillTag title="Django" icon={<SiDjango class="inline-block text-lg mr-2 -mt-1" />} />
                 <SkillTag title="Android Studio" icon={<SiAndroidstudio class="inline-block text-lg mr-2 -mt-1" />} />
                 <SkillTag title="Tailwind CSS" icon={<SiTailwindcss class="inline-block text-lg mr-2 -mt-1" />} />
                 <SkillTag title="Bootstrap" icon={<FaBootstrap class="inline-block text-lg mr-2 -mt-1" />} />
