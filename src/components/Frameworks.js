@@ -1,6 +1,6 @@
 import React from "react"
 import SkillTag from "./SkillTag";
-import { SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss, SiAndroidstudio, SiDjango } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiAzuredevops, SiGit, SiTailwindcss, SiAndroidstudio, SiDjango, SiDynatrace, SiAmazonaws, SiTerraform, SiGitlab } from 'react-icons/si';
 import { FaBootstrap, FaNodeJs } from 'react-icons/fa';
 
 function Frameworks() {
@@ -15,6 +15,10 @@ function Frameworks() {
 
             <div class='anim-fade-in -mt-2 flex flex-wrap -m-1 p-6 sm:px-10'>
 
+                <SkillTag title="AWS" icon={<SiAmazonaws class="inline-block text-lg mr-2 -mt-1" />} />
+                <SkillTag title="Terraform" icon={<SiTerraform class="inline-block text-lg mr-2 -mt-1" />} />
+                <SkillTag title="Dynatrace" icon={<SiDynatrace class="inline-block text-lg mr-2 -mt-1" />} />
+                <SkillTag title="Gitlab CI/CD" icon={<SiGitlab class="inline-block text-lg mr-2 -mt-1" />} />
                 <SkillTag title="Django" icon={<SiDjango class="inline-block text-lg mr-2 -mt-1" />} />
                 <SkillTag title="NodeJs" icon={<FaNodeJs class="inline-block text-lg -mt-1" />} />
                 <SkillTag title="Express" icon={<SiExpress class="inline-block text-lg mr-2 -mt-1" />} />

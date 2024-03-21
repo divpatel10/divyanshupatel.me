@@ -18,7 +18,7 @@ function AboutMe() {
                 <h1 class='anim-slide-up text-4xl sm:text-6xl  leading-relaxed font-semibold mt-6'>
                     Hi!👋 <br />I'm Divyanshu
                 </h1>
-                <p class='anim-slide-up text-xl sm:text-3xl pt-1 pb-4 px-5 mt-4 w-auto inline-block border-b-1 text-ellipsis' >
+                <p class='anim-slide-up text-xl sm:text-xl pt-1 pb-4 px-5 mt-4 w-auto inline-block border-b-1 text-ellipsis' >
                 I am a passionate Software Engineer at Ally, where I apply cutting-edge technology solutions to enhance our financial services. Concurrently, I am advancing my expertise in Computer Science through a Master's program at Georgia Tech
                     <span class = "cursor" data-reactid="12">|</span>
                 </p>
