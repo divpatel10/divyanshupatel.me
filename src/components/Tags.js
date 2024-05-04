@@ -2,7 +2,7 @@ import React from "react";
 
 function openWindow(url) {
     const link = document.createElement('a');
-    if (url != "") {
+    if (url !== "") {
         link.href = url;
 
         link.target = '_blank';
@@ -14,7 +14,7 @@ function openWindow(url) {
 
 const Tags = ({ icon, title, onclick = "", isMain = false }) => {
     if (isMain) return (
-        <a
+        <a // eslint-disable-next-line
             class="anim-slide-up relative inline-flex items-center justify-center p-0.5
              mb-2 overflow-hidden text-xl mr-6 font-medium 
               rounded-lg group bg-gradient-to-br from-cyan-400 to-blue-800
@@ -26,7 +26,7 @@ const Tags = ({ icon, title, onclick = "", isMain = false }) => {
                 openWindow(onclick);
             }
             }
-        >
+        > 
             <span class="anim-slide-down relative inline-block px-5 py-2.5
                         transition-all ease-in duration-75 bg-gray-900 dark:bg-gray-900
                         rounded-md group-hover:bg-opacity-0">
