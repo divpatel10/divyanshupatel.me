@@ -13,8 +13,10 @@ function openWindow(url) {
 }
 
 const Tags = ({ icon, title, onclick = "", isMain = false }) => {
+
     if (isMain) return (
         <a // eslint-disable-next-line
+            href="/resume"
             class="anim-slide-up relative inline-flex items-center justify-center p-0.5
              mb-2 overflow-hidden text-xl mr-6 font-medium 
               rounded-lg group bg-gradient-to-br from-cyan-400 to-blue-800

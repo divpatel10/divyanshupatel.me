@@ -19,16 +19,9 @@ function AboutMe() {
                 Hi!👋 <br />I'm Divyanshu
             </h1>
             <p class='anim-slide-up text-xl sm:text-xl pt-1 pb-4 px-5 mt-4 w-auto inline-block border-b-1 text-ellipsis' >
-                I am a Software Engineer at Ally, where I apply to enhance our financial services. Concurrently, I am advancing my expertise in Computer Science through a Master's program at Georgia Tech
+                I am a Software Engineer at Ally, where I design and develop innovative Reliability Solutions. Concurrently, I am advancing my expertise in Computer Science through a Master's program at Georgia Tech
                 <span class="cursor" data-reactid="12">|</span>
             </p>
-
-            {/* <div class='anim-fade-in my-1 flex flex-wrap justify-center -m-1 relative mt-12 p-4 sm:px-10'>
-                    <Tags title="Resume" onclick={require("../files/resume.pdf")} isMain={true} icon={<FaBook class="inline-block text-md -mt-1" />} />
-                    <Tags title="LinkedIn" onclick={LINKED_URL} isMain={true} icon={<FaLinkedin class=" inline-block text-md -mt-1" />} />
-                    <Tags title="Email" onclick={EMAIL_ID} isMain={true} icon={<GrMail class=" inline-block text-md -mt-1" />} />
-                    <Tags title="Github" onclick={GITHUB_URL} isMain={true} icon={<FaGithub class=" inline-block text-md -mt-1" />} />
-                </div> */}
 
             <div class='flex justify-center items-center flex-wrap sm:px-5'>
                 <div class='w-auto flex-none my-1'>
